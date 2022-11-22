@@ -39,7 +39,7 @@
                     <a href="#contacts">Contact</a>
                 </li>
             </ul>
-            <div class="nav-container" onclick="myFunction(this)">
+            <div class="nav-container btn" id="burger">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
@@ -291,20 +291,6 @@
             </div>
         </section>
     </footer>
-    <script>
-        const hamburger = document.querySelector('.nav-container');
-        const menu = document.querySelector('.topnav');
-        hamburger.addEventListener('click', () => {
-        hamburger.classList.toggle('active');
-        menu.classList.toggle('active');
-        })
-    </script>
-
-    <script>
-        function myFunction(x) {
-          x.classList.toggle("change");
-        }
-    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="./js/script.min.js"></script>
 </body>
